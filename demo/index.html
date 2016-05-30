@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>angular-clipboard</title>
+	<script src="../node_modules/angular/angular.min.js"></script>
+	<script src="../node_modules/clipboard/dist/clipboard.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body ng-app="MyApp">
+<div ng-controller="MyController">
+	<!-- Target -->
+	<textarea id="bar" ng-model='text'></textarea>
+	<!-- Trigger -->
+	<button class="btn"  clip-action="copy" clip-model="text" clip-alert='true' clip-success-text="地址已经复制到剪贴板!" clipboard>
+	    复制到剪贴板
+	</button>
+</div>
+<script>
+</script>
+</body>
+</html>
