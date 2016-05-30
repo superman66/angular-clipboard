@@ -1,4 +1,4 @@
-angular.module('MyApp', [])
+angular.module('angular-clipboard', [])
 .directive('clipboard', [function(){
 	return{
 		restrict: 'A',
@@ -30,7 +30,4 @@ angular.module('MyApp', [])
 			});
 		}
 	}
-}])
-.controller('MyController', ['$scope', function($scope){
-	$scope.text = 'https://github.com/superman66';
 }])
