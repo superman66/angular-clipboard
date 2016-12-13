@@ -1,13 +1,17 @@
 {
   "name": "angular-clipboard",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "angular-clipboard directive using clipboard.js that without using flash",
+  "main": "angular-clipboard.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "superman",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/superman66/angular-clipboard.git"
+  },
   "dependencies": {
     "angular": "^1.5.6",
     "clipboard": "^1.5.10"
