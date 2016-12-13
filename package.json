@@ -1,5 +1,5 @@
 {
-  "name": "angular-clipboard",
+  "name": "angular-clipboard-directive",
   "version": "1.0.0",
   "description": "angular-clipboard directive using clipboard.js that without using flash",
   "main": "angular-clipboard.js",
